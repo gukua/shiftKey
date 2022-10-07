@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053E70B028F026BE0053E79F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053E70B228F026BE0053E79F /* Localizable.strings */; };
+		0573C3D328EA060B002A4B09 /* ShiftsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573C3D228EA060B002A4B09 /* ShiftsService.swift */; };
+		0573C3D528EA0EC0002A4B09 /* ShiftDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573C3D428EA0EC0002A4B09 /* ShiftDetailsView.swift */; };
+		0573C3D728EA0F9D002A4B09 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573C3D628EA0F9D002A4B09 /* Shifts.swift */; };
+		05A644E428EF287800783EDF /* DateCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A644E328EF287800783EDF /* DateCreator.swift */; };
+		05A644E628EF346C00783EDF /* ShiftsListRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A644E528EF346C00783EDF /* ShiftsListRobot.swift */; };
+		05A644EA28EF39F600783EDF /* XCUIElement+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A644E928EF39F600783EDF /* XCUIElement+Extensions.swift */; };
+		05A644EE28EF464A00783EDF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A644ED28EF464A00783EDF /* UIColor+Extensions.swift */; };
 		2349FD5B261E4F6900A1FEAA /* CodingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */; };
 		2349FD5F261E4F6A00A1FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */; };
 		2349FD62261E4F6A00A1FEAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2349FD61261E4F6A00A1FEAA /* Preview Assets.xcassets */; };
 		2349FD6D261E4F6A00A1FEAA /* CodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD6C261E4F6A00A1FEAA /* CodingChallengeTests.swift */; };
 		2349FD78261E4F6A00A1FEAA /* CodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */; };
-		2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD88261E4F9900A1FEAA /* ShiftsView.swift */; };
+		2349FD89261E4F9900A1FEAA /* ShiftsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD88261E4F9900A1FEAA /* ShiftsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053E70B128F026BE0053E79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		053E70B528F027110053E79F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0573C3D228EA060B002A4B09 /* ShiftsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsService.swift; sourceTree = "<group>"; };
+		0573C3D428EA0EC0002A4B09 /* ShiftDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDetailsView.swift; sourceTree = "<group>"; };
+		0573C3D628EA0F9D002A4B09 /* Shifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shifts.swift; sourceTree = "<group>"; };
+		05A644E328EF287800783EDF /* DateCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCreator.swift; sourceTree = "<group>"; };
+		05A644E528EF346C00783EDF /* ShiftsListRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsListRobot.swift; sourceTree = "<group>"; };
+		05A644E928EF39F600783EDF /* XCUIElement+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIElement+Extensions.swift"; sourceTree = "<group>"; };
+		05A644ED28EF464A00783EDF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		2349FD57261E4F6900A1FEAA /* CodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengeApp.swift; sourceTree = "<group>"; };
 		2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +61,7 @@
 		2349FD73261E4F6A00A1FEAA /* CodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengeUITests.swift; sourceTree = "<group>"; };
 		2349FD79261E4F6A00A1FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2349FD88261E4F9900A1FEAA /* ShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsView.swift; sourceTree = "<group>"; };
+		2349FD88261E4F9900A1FEAA /* ShiftsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +89,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057C7B5D28EF1EE4008DF73F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2349FD88261E4F9900A1FEAA /* ShiftsListView.swift */,
+				0573C3D428EA0EC0002A4B09 /* ShiftDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		057C7B5E28EF1F22008DF73F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0573C3D228EA060B002A4B09 /* ShiftsService.swift */,
+				05A644E328EF287800783EDF /* DateCreator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		057C7B5F28EF1F2F008DF73F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0573C3D628EA0F9D002A4B09 /* Shifts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		057C7B6028EF1F41008DF73F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */,
+				2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */,
+				2349FD63261E4F6A00A1FEAA /* Info.plist */,
+				053E70B228F026BE0053E79F /* Localizable.strings */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		05A644EB28EF39FD00783EDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05A644E928EF39F600783EDF /* XCUIElement+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05A644EC28EF463A00783EDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05A644ED28EF464A00783EDF /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2349FD4E261E4F6900A1FEAA = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +165,11 @@
 		2349FD59261E4F6900A1FEAA /* CodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */,
-				2349FD88261E4F9900A1FEAA /* ShiftsView.swift */,
-				2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */,
-				2349FD63261E4F6A00A1FEAA /* Info.plist */,
+				05A644EC28EF463A00783EDF /* Extensions */,
+				057C7B6028EF1F41008DF73F /* Supporting files */,
+				057C7B5F28EF1F2F008DF73F /* Models */,
+				057C7B5E28EF1F22008DF73F /* Services */,
+				057C7B5D28EF1EE4008DF73F /* Views */,
 				2349FD60261E4F6A00A1FEAA /* Preview Content */,
 			);
 			path = CodingChallenge;
@@ -124,7 +195,9 @@
 		2349FD76261E4F6A00A1FEAA /* CodingChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
+				05A644EB28EF39FD00783EDF /* Extensions */,
 				2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */,
+				05A644E528EF346C00783EDF /* ShiftsListRobot.swift */,
 				2349FD79261E4F6A00A1FEAA /* Info.plist */,
 			);
 			path = CodingChallengeUITests;
@@ -214,7 +287,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				pl,
 			);
 			mainGroup = 2349FD4E261E4F6900A1FEAA;
 			productRefGroup = 2349FD58261E4F6900A1FEAA /* Products */;
@@ -234,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2349FD62261E4F6A00A1FEAA /* Preview Assets.xcassets in Resources */,
+				053E70B028F026BE0053E79F /* Localizable.strings in Resources */,
 				2349FD5F261E4F6A00A1FEAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */,
+				0573C3D528EA0EC0002A4B09 /* ShiftDetailsView.swift in Sources */,
+				2349FD89261E4F9900A1FEAA /* ShiftsListView.swift in Sources */,
+				05A644E428EF287800783EDF /* DateCreator.swift in Sources */,
+				0573C3D328EA060B002A4B09 /* ShiftsService.swift in Sources */,
+				05A644EE28EF464A00783EDF /* UIColor+Extensions.swift in Sources */,
+				0573C3D728EA0F9D002A4B09 /* Shifts.swift in Sources */,
 				2349FD5B261E4F6900A1FEAA /* CodingChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A644EA28EF39F600783EDF /* XCUIElement+Extensions.swift in Sources */,
 				2349FD78261E4F6A00A1FEAA /* CodingChallengeUITests.swift in Sources */,
+				05A644E628EF346C00783EDF /* ShiftsListRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +376,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		053E70B228F026BE0053E79F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053E70B128F026BE0053E79F /* en */,
+				053E70B528F027110053E79F /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		2349FD7A261E4F6A00A1FEAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -361,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -421,7 +516,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CodingChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HRU3V63R2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CodingChallenge/Info.plist;
+				INFOPLIST_FILE = "CodingChallenge/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +538,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CodingChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HRU3V63R2;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CodingChallenge/Info.plist;
+				INFOPLIST_FILE = "CodingChallenge/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

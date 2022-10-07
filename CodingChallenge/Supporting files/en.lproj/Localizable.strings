@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  CodingChallenge
+
+  Created by Adrian Krzyżowski on 07/10/2022.
+  
+*/
+
+/* Timezone label  */
+"Timezone" = "Timezone";
+
+/* Date from */
+"From" = "From";
+
+/* Date to */
+"to" = "to";
+
+/* Skill text */
+"Skill" = "Skill";
+
+/* Specialty text */
+"Specialty" = "Specialty";
+
+/* Within distance text */
+"Within distance" = "Within distance";
+
+/* Start time text */
+"Start time" = "Start time";
+
+/* End time text */
+"End time" = "End time";
+
+/* Load shifts button title */
+"Load shifts for the next week" = "Load shifts for the next week";
+
+/* Navigation bar title */
+"Available shifts" = "Available shifts";
+
+/* Progress view title */
+"Loading..." = "Loading...";
+
+/* Alert title */
+"Failed to load data!" = "Failed to load data!";
+
+/* Alert button title */
+"Retry" = "Retry";

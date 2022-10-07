@@ -8,26 +8,43 @@
 import XCTest
 @testable import CodingChallenge
 
+@MainActor
 class CodingChallengeTests: XCTestCase {
+    let currentDate = Date()
+    let dateFormatter = DateFormatter()
+    let calendar = Calendar.current
+    var sut: DateCreator!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        super.setUp()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        sut = DateCreator()
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    override func tearDown() {
+        sut = nil
+        super.tearDown()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCurrentDate() {
+        let generatedDate = sut.dateForStartOfWeek()
+
+        XCTAssertEqual(dateFormatter.string(from: currentDate), generatedDate)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCurrentWeekEndDate() {
+        let generatedDate = sut.dateForNextWeek()
+        let endOfWeek = dateFormatter.string(from: calendar.date(byAdding: .weekOfYear, value: 1, to: currentDate)!)
+
+        XCTAssertEqual(endOfWeek, generatedDate)
     }
 
+    func testNextWeekStartDate() {
+        _ = sut.dateForStartOfWeek()
+        _ = sut.dateForNextWeek()
+        let generatedDate = sut.dateForStartOfWeek()
+        let endOfWeek = dateFormatter.string(from: calendar.date(byAdding: .day, value: 8, to: currentDate)!)
+
+        XCTAssertEqual(generatedDate, endOfWeek)
+    }
 }
